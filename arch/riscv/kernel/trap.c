@@ -61,7 +61,7 @@ void trap_handler(uint64_t scause, uint64_t sepc, struct pt_regs *regs){
                     // fork() (actually the clone)
                     case 220:
                         //regs->a0 = do_cow_fork(regs); 
-                        regs->a0 = do_fork(regs);
+                        regs->a0 = do_cow_fork(regs);
                     break;
                     default:
                     break; 

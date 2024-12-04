@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/os24fall-stu/src/lab5/arch/riscv/kernel",
-      "program": "/home/os24fall-stu/src/lab5/arch/riscv/kernel/build/Debug/outDebug",
+      "cwd": "/home/ZJU_OS/arch/riscv/kernel",
+      "program": "/home/ZJU_OS/arch/riscv/kernel/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

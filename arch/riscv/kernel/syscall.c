@@ -235,6 +235,7 @@ long do_cow_fork(struct pt_regs* regs){
 
     // create the page_table;
     child->pgd = (uint64_t*) alloc_page();
+    memcpy((void*)child->pgd,(void*)swapper_pg_dir,PGSIZE);
     /**
      *  the reference count ++;
      *  now we need to let the PTE read-only and copy for the PTE; 
